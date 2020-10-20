@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    font-family: 'Raleway';
+    background-color: lightyellow;
+    margin: 0;
+
+
+}
+html {
+    margin-right: 0;
+}
+#all {
+    background-color: lightyellow;
+    float: left;
+}
+
+#topbar {
+    background-color: rgb(255, 200, 97);
+    width: 100%;
+    float: left;
+    color: white;
+}
+#head {
+    float: left;
+    padding: 10px;
+    color: white;
+}
+.nav {
+    float: right;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+
+}
+#container {
+    width: 1900px;
+
+}
+.box {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: 400px
+}
+#dashboard,#budget,#checkbooks,#money {
+    float: left;
+    border: 2px solid rgb(255, 200, 97);
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    height: 400px;
+    margin-top: 0;
+    border-radius: 5px;
+
+}
+h2 {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+p {
+    margin: 5px;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
+form [type="submit"] {
+    padding: 7px auto;
+   width: 200px;
+   margin-left: 20px;
+   margin-top: 5px;
+   background-color: rgb(255, 200, 97);
+   border: 1px rgb(255, 200, 97);
+   border-radius: 3px;
+   color: white;
+   font-weight: lighter;
+   
+}
